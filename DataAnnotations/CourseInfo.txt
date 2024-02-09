@@ -1,0 +1,37 @@
+Welcome to Paul D. Sheriff's From Zero to Programmer Series
+Topic: Use Data Annotations in any C# Application
+.NET Versions: This course applies to .NET 6, 7, and 8.
+
+Data annotations are not just for use in ASP.NET web applications. Any type of .NET application can utilize data annotations for validating data. It only takes about 15 lines of code to programmatically validate data annotations attached to entity classes. There are many built-in data annotations supplied by Microsoft that can validate your data quickly. It is easy to create your own data annotation attributes to apply to your entity classes. If you have some very specific validation needs, you may implement the IValidatableObject interface for your entity classes. If you are developing multi-lingual applications, you can even move your error messages into resources and specify the name of those resources on each of your attributes.
+
+Quit writing code to validate your user input. In this course you are going to explore most of the data annotations supplied by Microsoft. You are going to develop a few custom validation attributes to check dates and numeric values. You also learn to create a custom validation attribute to compare the values between two different properties.
+
+The following data annotations are covered in this course. [Required], [Display], [CustomValidation], [StringLength], [MinLength], [MaxLength], [Url], [EmailAddress], [CreditCard], [Compare], [Range], and [RegularExpression]. You also build a custom validation classes as well.
+
+All the demos you are shown during this course are backed up with a set of labs for you to perform. Walking through these labs step-by-step ensures that you understand the concepts illustrated in each lesson. You are going to see and perform over 30 hands-on labs.
+
+*Course Objectives*
+By the end of this course, you will have used the majority of the Data Annotations in .NET you can use to validate the data in your object.
+
+- Course Overview for Data Annotations in C# Applications
+- Overview of .NET Data Annotations and a Sample of Using them in C#
+- Validating Data Annotations Programmatically in C#
+- Adding the ErrorMessage Property to the [Required] Attribute
+- How the [Display] Attribute Changes the Error Message
+- The [MaxLength], [MinLength], and [StringLength] Attributes
+- Using the [Range] Attribute with Numeric and Date Data
+- Check Data Using the [RegularExpression] Annotation
+- [EmailAddress], [Phone], [Url], and [CreditCard] Annotations
+- Compare Two Property Values Using the [Compare] Attribute
+- Build Your Own Validation Using the [CustomValidation] Attribute
+- Custom Validations by Inheriting from the ValidationAttribute Class in C#
+- Create a Custom [Compare] Validation Class in C#
+
+Expert Guidance: Learn from the best! Paul D. Sheriff, an experienced developer since 1986, has been teaching and mentoring developers across the globe for over 30 years. His easy-going teaching style and ability to simplify complex topics will ensure you grasp every concept effortlessly.
+
+*Helpful Links*
+Samples and hands-on labs for this course: https://www.pdsa.com/YouTube
+
+System.ComponentModel.DataAnnotations Namespace: https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations?view=net-8.0
+
+#dataannotation #validation #csharp #development #programming #dotnet #dotnetcore #dotnet6 #dotnet #dotnet8 #pauldsheriff #pluralsight #youtube
